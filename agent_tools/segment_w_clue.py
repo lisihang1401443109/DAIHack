@@ -12,6 +12,6 @@ app = FastAPI()
 
 
 @app.post("/segment_anything")
-async def segment_anything(image: str, clue: str):
+async def segment_anything(uuid: str, image: str, clue: str):
     # calls the segment anything api
     pass
