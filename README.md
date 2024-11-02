@@ -9,7 +9,8 @@
 
 2. Segment Anything API
    1. # agent tools
-   2. # ```json
+   2. # format
+   ```json
    {input:
     {
         file_path: str
@@ -26,7 +27,8 @@
 
 3. append furnitures API
    1. # agent tools
-   2. # ```json
+   2. # format
+   ```json
    {
     input：{
         position: (x, y),
