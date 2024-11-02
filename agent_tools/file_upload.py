@@ -20,7 +20,7 @@ async def file_upload(uuid: str, file: UploadFile = File(...),):
     content = await file.read()
     
     # store the file in a local directory
-    with open(file_dir / uuid / 'user_image_0.png', "wb") as f:
+    with open(file_dir / uuid / 'user_image.png', "wb") as f:
         f.write(content)
     
     return {"success": True}
